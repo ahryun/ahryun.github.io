@@ -4,7 +4,9 @@ html, body {
 
 body {
 	background-size: cover; 
-	background: url('../images/home_screen1.jpg') no-repeat fixed center center;
+	background-repeat: no-repeat;
+	background-image: url('../images/home_screen1.jpg');
+	background-position: center center;
 	background-color: rgb(242,102,99);
 	overflow: hidden;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
