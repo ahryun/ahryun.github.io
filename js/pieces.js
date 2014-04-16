@@ -22,9 +22,9 @@ $(document).ready(function() {
 	    iframes.attr('src', '//www.youtube-nocookie.com/embed/i-VokWNmZNI?rel=0');
 	});
 
-	iframes.attr('data-src', function() {
-	    var src = $(this).attr('src');
-	    $(this).removeAttr('src');
-	    return src;
-	});
+	// iframes.attr('data-src', function() {
+	//     var src = $(this).attr('src');
+	//     $(this).removeAttr('src');
+	//     return src;
+	// });
 });
