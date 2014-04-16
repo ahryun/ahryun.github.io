@@ -18,6 +18,7 @@ $(document).ready(function() {
 	var iframes = $('iframe');
 
 	$('.pc-play-button').click(function() {
+		$("#pc-video-modal").modal('show');
 	    iframes.attr('src', function() {
 	        return $(this).data('src');
 	    });
