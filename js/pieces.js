@@ -15,14 +15,14 @@ $(document).ready(function() {
 		// 	draggable: false		//Only used if jQuery UI is present. Will change background-position to fixed
 		// });
   //   });
-	// var iframes = $('iframe');
+	var iframes = $('iframe');
 
-	// $('.pc-play-button').click(function() {
-	// 	$("#pc-video-modal").modal('show');
-	// 	iframes.attr('src', function() {
- //    	    return $(this).data('src');
-	//     });	
-	// });
+	$('.pc-play-button').click(function() {
+		$("#pc-video-modal").modal('show');
+		// iframes.attr('src', function() {
+  //   	    return $(this).data('src');
+	 //    });	
+	});
 
 	// iframes.attr('data-src', function() {
 	//     var src = $(this).attr('src');
