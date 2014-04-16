@@ -19,14 +19,12 @@ $(document).ready(function() {
 
 	$('.pc-play-button').click(function() {
 		$("#pc-video-modal").modal('show');
-	    iframes.attr('src', function() {
-	        return $(this).data('src');
-	    });
+	    iframes.attr('src', '//www.youtube-nocookie.com/embed/i-VokWNmZNI?rel=0');
 	});
 
-	// iframes.attr('data-src', function() {
-	//     var src = $(this).attr('src');
-	//     $(this).removeAttr('src');
-	//     return src;
-	// });
+	iframes.attr('data-src', function() {
+	    var src = $(this).attr('src');
+	    $(this).removeAttr('src');
+	    return src;
+	});
 });
