@@ -24,9 +24,9 @@ $(document).ready(function() {
 	    });
 	});
 
-	iframes.attr('data-src', function() {
-	    var src = $(this).attr('src');
-	    $(this).removeAttr('src');
-	    return src;
-	});
+	// iframes.attr('data-src', function() {
+	//     var src = $(this).attr('src');
+	//     $(this).removeAttr('src');
+	//     return src;
+	// });
 });
