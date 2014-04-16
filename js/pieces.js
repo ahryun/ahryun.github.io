@@ -1,7 +1,7 @@
 // A $( document ).ready() block.
 $(document).ready(function() {
     $(".pc-play-button").click(function() {
-    	$('.site-wrapper').blurjs({
+    	$('body').blurjs({
 			source: 'body',			//Background to blur
 			radius: 5,			//Blur Radius
 			overlay: '',			//Overlay Color, follow CSS3's rgba() syntax
