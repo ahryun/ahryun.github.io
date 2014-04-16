@@ -3,10 +3,12 @@ html, body {
 }
 
 body {
-	background-size: 100%; 
+	background-size: cover; 
 	background-repeat: no-repeat;
 	background-image: url('../images/home_screen1.jpg');
+	background-position: center center;
 	background-color: rgb(242,102,99);
+	overflow: hidden;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 

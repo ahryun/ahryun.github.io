@@ -17,7 +17,6 @@
 		<!-- Custom CSS file -->
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<!-- Custom JS file -->
-		<script src="js/blur.min.js"></script>
 		<script src="js/pieces.js"></script>
 
 	</head>
@@ -25,32 +24,49 @@
 		<div class="container-fluid site-wrapper">
 			<div class="row pc-main-row">
 				<div class="col-md-12" style="height: 30%;"></div>
-				<div class="col-md-1 col-md-offset-7">
-					<a class="pc-play-button">
-						<img src="images/play_button.png" class="img-responsive center-block" />
-					</a>
-				</div>
-				<div class="col-md-5 col-md-offset-5">
-					<h1 class="text-center pc-main-text pc-bigger-text-5x pc-header-text">breathe life<br /><span class="pc-smaller-text">into a piece of paper</span></h1>
-				</div>
-			</div>
-			<div class="row pc-bottom-row">
-				<div class="col-md-2 pc-full-height">
+				<div class="col-xs-offset-3 col-xs-6 visible-xs visible-sm col-sm-offset-4 col-sm-4">
 					<a href="/"  class="pc-logo-button pc-bottom-align">
 						<img src="images/pieces_logo.png" class="img-responsive center-block" />
 					</a>
 				</div>
-				<div class="col-md-2 col-md-offset-8 pc-full-height">
+				<div class="col-md-1 col-md-offset-7 hidden-xs hidden-sm pc-medium">
+					<a class="pc-play-button">
+						<img src="images/play_button.png" class="img-responsive center-block" />
+					</a>
+				</div>
+				<div class="col-xs-4 col-xs-offset-4 col-sm-2 col-sm-offset-5 visible-xs visible-sm pc-small">
+					<a class="pc-play-button">
+						<img src="images/play_button.png" class="img-responsive center-block" />
+					</a>
+				</div>
+				<div class="col-md-5 col-md-offset-5 hidden-xs hidden-sm">
+					<h1 class="text-center pc-main-text pc-bigger-text-5x pc-header-text">breathe life<br /><span class="pc-smaller-text">into a piece of paper</span></h1>
+				</div>
+			</div>
+			<div class="row pc-bottom-row">
+				<div class="col-md-2 pc-full-height hidden-xs hidden-sm">
+					<a href="/"  class="pc-logo-button pc-bottom-align">
+						<img src="images/pieces_logo.png" class="img-responsive center-block" />
+					</a>
+				</div>
+				<div class="col-md-2 col-md-offset-8 pc-full-height col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3">
 					<a href=""  class="pc-download-button pc-bottom-align">
 						<img src="images/download_button.png" class="img-responsive center-block" />
 					</a>
 				</div>
 			</div>
 		</div>
-		<div id="pc-video-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div id="pc-video-modal-md" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-md">
 				<div class="modal-content">
-					<iframe class="center-block " width="640" height="480" src="//www.youtube-nocookie.com/embed/i-VokWNmZNI?rel=0" frameborder="0" allowfullscreen></iframe>
+					<iframe width="640" height="480" class="center-block" src="//www.youtube-nocookie.com/embed/i-VokWNmZNI?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<div id="pc-video-modal-sm" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<iframe width="420" height="315" class="center-block" src="//www.youtube-nocookie.com/embed/i-VokWNmZNI?rel=0" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
